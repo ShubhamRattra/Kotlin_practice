@@ -1,0 +1,11 @@
+#Code
+
+fun main() {
+    val a = "Hello, world!!!"
+    println(a)
+}
+
+
+#output
+
+Hello, world!!!
