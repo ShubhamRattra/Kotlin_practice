@@ -10,3 +10,17 @@ fun main() {
 #Output
 
 shubham rattra
+
+
+
+#Code
+
+var s:String = "shubham"
+
+fun main() {
+    println("$s rattra with name length ${s.length}")
+}
+
+#Output
+
+shubham rattra with name length 7
