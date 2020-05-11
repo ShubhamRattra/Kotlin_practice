@@ -1,0 +1,18 @@
+#code
+
+lateinit var s : String
+
+val n : Int = 3
+
+fun main() {
+
+    var s = "hi"
+    println(s)
+    println(n)
+}
+
+
+#Output
+
+hi
+3
