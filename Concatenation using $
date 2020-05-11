@@ -1,0 +1,12 @@
+#Code
+
+var s:String = "shubham"
+
+fun main() {
+    println("$s rattra")
+}
+
+
+#Output
+
+shubham rattra
