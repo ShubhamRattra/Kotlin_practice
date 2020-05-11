@@ -1,0 +1,13 @@
+#Code
+
+var s:String? = null
+
+fun main() {
+    var size = s?.length
+    println(s)
+}
+
+
+#output
+
+null
