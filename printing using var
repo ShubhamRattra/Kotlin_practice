@@ -1,0 +1,12 @@
+#code
+
+fun main() {
+	var a = 3
+	a = 7
+    println(a)
+}
+
+
+#output
+
+7
