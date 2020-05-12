@@ -1,0 +1,40 @@
+#Code
+
+fun main() {
+    //val num = Array( 5 , { i -> i * 1 } )
+    val number = arrayOf<Int>(1,2,3,4,5)
+    println(number[2])
+}
+
+
+#Output
+
+3
+
+
+
+#Code
+
+fun main() {
+    val num = Array( 5 , { i -> i * 1 } )
+    println(num[2])
+}
+
+
+#Output 
+
+2
+
+
+
+#Code
+
+fun main() {
+    val nameString = arrayOf<String>("1","2","3","4","5")
+    println(nameString.get(4))
+}
+
+
+#Output
+
+5
