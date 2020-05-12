@@ -1,0 +1,15 @@
+#Code
+
+fun main() {
+    val any:Any = "Shubham"
+    when(any) {
+        "Shubham" -> { println("name") }
+        "Rattra" -> { println("Sir name") }
+        else -> { print("idk") }
+    }
+}
+
+
+#Output
+
+name
