@@ -1,0 +1,11 @@
+#Code
+
+fun main() {
+    var mapOfNames = mapOf<String,String>( "name" to "Shubham" , "Sir name" to "Rattra" )
+    println(mapOfNames["name"])
+}
+
+
+#output
+
+Shubham
