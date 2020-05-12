@@ -1,0 +1,12 @@
+#Code
+
+fun main() {
+    var hashmapOfNames = hashMapOf<String,String>( "name" to "Shubham" , "Sir name" to "Rattra" )
+    hashmapOfNames["age"] = "20"
+    println(hashmapOfNames["age"])
+}
+
+
+#Output
+
+20
