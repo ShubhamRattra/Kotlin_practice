@@ -1,0 +1,16 @@
+#Code
+
+fun main() {
+    var arrayOfNames = arrayOf<String>( "1","2","3","4" )
+    for (name in arrayOfNames){
+        println(name)
+    }
+}
+
+
+#Output
+
+1
+2
+3
+4
