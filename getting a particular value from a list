@@ -1,0 +1,11 @@
+#Code
+
+fun main() {
+    var listOfNames = listOf<String>("Hello","Shubham","Rattra")
+    println(listOfNames.get(1))
+}
+
+
+#Output
+
+Shubham
