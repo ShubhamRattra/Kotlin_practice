@@ -1,0 +1,16 @@
+#Code
+
+fun main() {
+    var hashmapOfNames = hashMapOf<String,String>( "name" to "Shubham" , "Sir name" to "Rattra" )
+    hashmapOfNames["age"] = "20"
+    hashmapOfNames.forEach{ any , any2 ->
+        println( any + "- " + any2)
+    }
+}
+
+
+#Output
+
+name- Shubham
+Sir name- Rattra
+age- 20
