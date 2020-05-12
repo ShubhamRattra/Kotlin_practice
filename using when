@@ -13,3 +13,21 @@ fun main() {
 #Output
 
 name
+
+
+
+#Code
+
+fun main() {
+    val any:Any = "Shubham"
+    val x = when(any) {
+        "Shubham" -> "$any Rattra" 
+        "Rattra" -> "Shubham $any"
+        else -> "enter a valid name"
+    }
+    println(x)
+}
+
+#Output
+
+Shubham Rattra
