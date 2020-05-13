@@ -1,0 +1,15 @@
+#Code
+
+fun main(){
+    print(getsquare(7))
+}
+
+
+fun getsquare(number : Int): Int {
+	return number * number
+}
+
+
+#output
+
+49
