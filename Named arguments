@@ -1,0 +1,13 @@
+#Code
+
+fun main() {
+    userId(sir_name= "Rat" , isActive= false , name= "Shubham")
+}
+
+fun userId(name: String , sir_name :String = "Rattra" , isActive: Boolean = true) {
+    print("Name- $name , sir name- $sir_name , Is-active- $isActive")
+}
+
+#Output
+
+Name- Shubham , sir name- Rat , Is-active- false
