@@ -1,0 +1,14 @@
+#Code
+
+fun main(){
+    print(getName())
+}
+
+
+fun getName(): String {
+	return "Shubham"
+}
+
+#Output
+
+Shubham
