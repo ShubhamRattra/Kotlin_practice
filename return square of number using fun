@@ -4,7 +4,6 @@ fun main(){
     print(getsquare(7))
 }
 
-
 fun getsquare(number : Int): Int {
 	return number * number
 }
@@ -13,3 +12,17 @@ fun getsquare(number : Int): Int {
 #output
 
 49
+
+
+
+#Code
+
+fun main() {
+    print(square(3))
+}
+
+fun square(number : Int): Int = number * number
+
+#Output
+
+9
