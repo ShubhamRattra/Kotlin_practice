@@ -1,0 +1,19 @@
+#Code
+
+fun main() {
+    countnPrint(1,2,3,4)
+}
+
+fun countnPrint(vararg number: Int) {
+    println(number.size)
+    for(no in number) println(no)
+}
+
+
+#Output
+
+4
+1
+2
+3
+4
