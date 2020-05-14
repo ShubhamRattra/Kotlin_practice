@@ -1,0 +1,16 @@
+#Code
+
+fun main() {
+   val user:User = User()
+   print(user.age)
+}
+
+class User {
+    val name: String = ""
+    val mobno: Int = 13
+    val age: Int = 2
+}
+
+#Output
+
+2
