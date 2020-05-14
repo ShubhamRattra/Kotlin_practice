@@ -10,10 +10,12 @@ fun main() {
 }
 
 class Account {
+//Properties
     var accNo: Int = 0
     var name: String? = null
     var amount: Float = 0f
     
+ //Member function   
     fun insert(acc:Int , n:String , amnt:Float) {
         accNo = acc
         name = n
