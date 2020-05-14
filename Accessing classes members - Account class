@@ -1,0 +1,44 @@
+#Code
+
+fun main() {
+   val account = Account()
+   account.insert(1234,"shubham",1000f)
+   account.deposit(100f)
+   account.deposit(150f)
+   account.deposit(50f)
+   println("Account no.- ${account.accNo} , Name- ${account.name} , Amount= ${account.amount}")
+}
+
+class Account {
+    var accNo: Int = 0
+    var name: String? = null
+    var amount: Float = 0f
+    
+    fun insert(acc:Int , n:String , amnt:Float) {
+        accNo = acc
+        name = n
+        amount = amnt
+    }
+    
+    fun deposit(money:Float) {
+        amount += money
+        println(amount)
+    }
+    
+    fun withdraw(money:Float) {
+        if(amount<money) {
+            println("Not sufficient money")
+        }
+        else {
+            amount -= money
+            println(amount)
+        }
+    }
+}
+
+#Output
+
+1100.0
+1250.0
+1300.0
+Account no.- 1234 , Name- shubham , Amount= 1300.0
