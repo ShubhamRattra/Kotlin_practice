@@ -1,0 +1,19 @@
+#Code
+
+class Vehicle {
+    var wheels = 2
+    fun getAxeles() : Int {
+        return wheels/2
+    }
+}
+
+fun main(args: Array<String>) {
+	val v = Vehicle()
+    println(v.wheels)
+    println(v.getAxeles())
+}
+
+#Output
+
+2
+1
