@@ -1,0 +1,23 @@
+#Code
+
+class Vehicle {
+    var wheels = 2
+    constructor(wheels:Int) {
+        this.wheels = wheels
+    }
+    fun getAxeles() : Int {
+        return wheels/2
+    }
+}
+
+fun main(args: Array<String>) {
+	val v = Vehicle(4)
+    println(v.wheels)
+    println(v.getAxeles())
+}
+
+
+#Output
+
+4
+2
