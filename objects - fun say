@@ -1,0 +1,18 @@
+#Code
+
+object myObject {
+    val item = "someitem"
+    fun say () {
+        println("HI")
+    }
+}
+
+fun main(args: Array<String>) {
+    println(myObject.item)
+    myObject.say()
+}
+
+#Output
+
+someitem
+HI
